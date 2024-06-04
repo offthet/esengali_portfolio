@@ -1,0 +1,155 @@
+.column h1{
+    text-align: center;
+}
+.column1 audio{
+    position: fixed;
+    bottom: 100%;
+}
+.column3 button{
+    width: 100px;
+    height: 30px;
+    right: 0%;
+    bottom: 95%;
+    position: fixed;
+}
+.column12 button{
+    width: 100px;
+    height: 30px;
+    right: 30%;
+    bottom: 95%;
+    position: fixed;
+}
+
+.column2{
+    background-color: burlywood;
+    width: 50%;
+    height: 683px;
+    bottom: 0%;
+    position: fixed;
+    left: 0%;
+}
+.column2 h1{
+    background-color: burlywood;
+    font-size: 2.2rem;
+   text-align: center;
+   font-family: math;
+    left: 2%;
+    position: fixed;
+    bottom: 83%;
+}
+.column2 h2{
+    background-color: burlywood;
+    font-size: 2.2rem;
+    left: 2%;
+    position: fixed;
+    bottom: 63%;
+    border-bottom: 9px solid black;
+
+}
+.column2 h3{
+    background-color: burlywood;
+    font-size: 2.2rem;
+    left: 2%;
+    position: fixed;
+    bottom: 44%;
+    border-bottom: 19px solid black;
+
+
+}
+.column2 h4{
+    background-color: burlywood;
+    font-size: 2.2rem;
+    position: fixed;
+    left: 2%;
+    bottom: 26%;
+    border-bottom: 6px solid black;
+
+}
+.column2 h5{
+    background-color: burlywood;
+    font-size: 2.2rem;
+    position: fixed;
+    left: 2%;
+    bottom: 7%;
+    border-bottom: 19px solid black;
+
+}
+.column4{
+    left: 34%;
+    position: fixed;
+    width: 8.8%;
+
+}
+.column4 img{
+    margin: 8%;
+}
+.column6 {
+   left: 2%;
+   position: fixed;
+   bottom: 21%;
+}
+.column6 h1{
+    background-color: burlywood;
+    font-size: large;
+    position: fixed;
+    left: 2%;
+    bottom: 63%;
+    z-index: 1;
+}
+.column6 h2{
+    left: 2%;
+    position: fixed; 
+    bottom: 46%;
+    background-color: burlywood;
+    font-size: large;
+    z-index: 2;
+}   
+.column6 h3{
+    position: fixed; 
+    bottom: 100%;
+    z-index: 3;
+}   
+.column6 h4{
+    left: 2%;
+    position: fixed; 
+    bottom: 11%;
+    background-color: burlywood;
+    font-size: large;
+    z-index: 4;
+}   
+ .column2 h2:hover::after {
+     content: "";
+     position: fixed;
+     right: 5%;
+     bottom: 40%;
+     background-image: url(vUc.gif);
+     background-size: cover;
+     width: 200px; /* Ширина изображения */
+     height: 200px; /* Высота изображения */
+     z-index: 5; /* Устанавливаем выше z-index, чтобы изображение находилось над текстом */
+ }
+ .column2 h2:hover::before {
+     content: "";
+     position: fixed;
+     right: 20%;
+     bottom: 40%;
+     background-image: url('photo_5402612132001995071_y.jpg'); /* Путь к изображению */
+     background-size: cover;
+     width: 200px; /* Ширина изображения */
+     height: 200px; /* Высота изображения */
+     z-index: 6; /* Устанавливаем выше z-index, чтобы изображение находилось над текстом */
+     color: aqua;
+     background-color: blue;
+ }
+ 
+ .column222 h3:hover::after {
+     content: "";
+     position: fixed;
+     right: 20%;
+     bottom: 40%;
+     background-image: url('WhatsApp\ Image\ 2024-06-03\ at\ 19.25.24.jpeg'); /* Путь к изображению */
+     background-size: cover;
+     width: 100px; /* Ширина изображения */
+     height: 100px; /* Высота изображения */
+     z-index: 7; /* Устанавливаем выше z-index, чтобы изображение находилось над текстом */
+ }
