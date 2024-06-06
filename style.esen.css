@@ -153,3 +153,59 @@
      height: 100px; /* Высота изображения */
      z-index: 7; /* Устанавливаем выше z-index, чтобы изображение находилось над текстом */
  }
+@media (max-width:1080px) {
+ .column2 h1{
+    position: fixed;
+    left: 1%;
+    bottom: 92%;
+    font-size: revert;
+ }   
+ .column2{
+      height: 1208px;
+ }
+ .column2 h2{
+    bottom: 78%;
+    position: fixed;
+ }
+ .column2 h3{
+    bottom: 55%;
+    position: fixed;
+ }
+ .column2 h4{
+    bottom: 30%;
+    position: fixed;
+ }
+ .column2 h5{
+    bottom: 13%;
+    position: fixed;
+ }
+ .column6 h1{
+    bottom: 76%;
+    position: fixed;
+    font-size: 174%;
+ }
+ .column6 h2{
+    bottom: 52%;
+    position: fixed;
+    font-size: 174%;
+ }
+ .column6 h2{
+    bottom: 52%;
+    position: fixed;
+    font-size: 174%;
+ }
+ .column4 img{
+    width: 180px;
+    height: 170px;
+   
+ }
+ .column6 h4{
+    bottom: 11%;
+    position: fixed;
+    font-size: 174%;
+ }
+ .column3 button{
+    width: 149px;
+    height: 150px;
+ }
+}
